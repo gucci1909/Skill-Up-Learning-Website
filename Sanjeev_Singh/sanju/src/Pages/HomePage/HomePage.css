@@ -1,0 +1,28 @@
+.header-wallpaper{
+    width: 90%;
+    margin: auto;
+}
+.header-wallpaper>img{
+    width: 90vw;
+    height:70vh;
+    border-radius:12px
+}
+.contactIcon{
+    position:fixed;
+    bottom: 10px;
+    right: 12px;
+}
+.contactSection{
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    border-radius: 12px;
+    background-color: white;
+}
+.product-navbar{
+    height: 30px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}

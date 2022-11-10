@@ -21,8 +21,11 @@
     border-radius: 12px;
     background-color: white;
 }
-.product-navbar{
-    height: 30px;
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
+.product-sidebar{
+    width: 18%;
+    height: 500px;
+    border:1px solid grey
+}
+.product-page{
+    display: flex;
 }

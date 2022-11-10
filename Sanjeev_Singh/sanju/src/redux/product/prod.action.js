@@ -15,6 +15,7 @@ export const getProductData=()=>async(dispatch)=>{
             type:GET_PRODUCTS_SUCCESS,
             payload:res.data,
         });
+        localStorage.setItem("products",JSON.stringify(res.data.databases))
         return res.data;
     }catch(e){
         dispatch({

@@ -1,1 +1,1 @@
-Navbar in pregress
+Navbar and footer in progress

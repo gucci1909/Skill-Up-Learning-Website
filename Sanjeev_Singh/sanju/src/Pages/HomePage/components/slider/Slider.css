@@ -10,7 +10,7 @@ margin-bottom: 60px;
   }
   @media screen and (max-width: 700px){
     .container-slider {
-      margin: 100px 10px 0;
+      margin-top: 16px;
     }
   }
   .slide {
@@ -58,7 +58,7 @@ margin-bottom: 60px;
     right: 20px;
     transform: translateY(-60%);
   }
-  
+   
   
   .container-dots {
     position: absolute;

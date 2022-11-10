@@ -1,9 +1,10 @@
+import { useEffect } from "react";
+
 const ProductPage = (data) => {
   let products = data.data;
   const handlePrice=()=>{
    const np= products.sort((a,b)=>Number(a.price)-Number(b.price));
-    products=np;
-    
+    products=np; 
   }
  
   return (

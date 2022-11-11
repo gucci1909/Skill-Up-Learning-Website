@@ -11,11 +11,13 @@ export const getProductData=()=>async(dispatch)=>{
     });
     try{
         const res=await axios.get('https://umang-first-products.onrender.com/products');
+
         dispatch({
             type:GET_PRODUCTS_SUCCESS,
-            payload:res.data,
+            payload:res.data.databases,
         });
-        localStorage.setItem("products",JSON.stringify(res.data.databases))
+
+    
         return res.data;
     }catch(e){
         dispatch({

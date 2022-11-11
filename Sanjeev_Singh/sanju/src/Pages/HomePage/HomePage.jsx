@@ -14,7 +14,7 @@ const HomePage = () => {
     dispatch(getProductData());
     setLoading(false);
   }, []);
-  const { data } = useSelector((state) => state.product);
+
 
 
   if (loading) {
@@ -29,7 +29,7 @@ const HomePage = () => {
       <div>
         <div className="left-sidebar"></div>
         <div className="meddle-section">
-          <ProductPage data={data.databases} />
+          <ProductPage/>
         </div>
       </div>
       <ContactIcon />

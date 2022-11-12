@@ -4,6 +4,7 @@ import BtnSlider from './BtnSlider'
 import dataSlider from './dataSlider'
 
 export default function Slider() {
+    console.log(dataSlider)
 
     const [slideIndex, setSlideIndex] = useState(1)
 

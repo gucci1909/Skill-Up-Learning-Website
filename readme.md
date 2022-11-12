@@ -8,6 +8,7 @@
 - Node.js
 - Express 
 - MongoDB
+- Redux-Thunk
 - CRUD
 - Firebase
 - Chakra UI
@@ -50,7 +51,7 @@ Start the server
 
 
 ### Prerequisites
-React.js , Nodejs , Firebase , Chakra UI , Express , Mongo DB , Api , Render.
+React.js , Nodejs , Firebase , Chakra UI , Express , Mongo DB , Redux-Thunk , Api , Render.
 
 ### Setup
 VS code , GitHub, Mongo DB, Render, Postman

@@ -50,11 +50,10 @@ Start the server
 
 
 ### Prerequisites
-React.js,Nodejs,Firebase,Chakra UI,Express,Mongo DB,Api,Render.
+React.js , Nodejs , Firebase , Chakra UI , Express , Mongo DB , Api , Render.
 
 ### Setup
-VS code,
-GitHub,Mongo DB,Render,Postman
+VS code , GitHub, Mongo DB, Render, Postman
 
 
 

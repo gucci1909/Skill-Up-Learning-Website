@@ -1,12 +1,12 @@
+import { Box } from '@chakra-ui/react';
 import './App.css';
-import Login from './Components/Login';
-import ProductsCrud from './Components/ProductsCrud';
+import AllPages from './Routes/AllPages';
 
 function App() {
   return (
-    <div className="App">
-      <ProductsCrud/>
-    </div>
+    <Box className="App">
+      <AllPages/>
+    </Box>
   );
 }
 

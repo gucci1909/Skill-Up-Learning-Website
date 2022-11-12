@@ -69,6 +69,7 @@ function ProductsCrud() {
   }
   return (
     <Box>
+      <Heading>Admin Product</Heading>
       <Box>
         <Input
           placeholder="Course Name"
@@ -109,7 +110,7 @@ function ProductsCrud() {
       </Box>
       {loading? "" : data &&
         data.map((el) => (
-          <Box>
+          <Box key={el._id}>
             <Heading>Course Name : {el.course_name}</Heading>
             <Text>Description : {el.description}</Text>
             <Image src={el.image} />

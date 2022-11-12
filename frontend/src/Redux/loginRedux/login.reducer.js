@@ -1,4 +1,4 @@
-import { ERROR_LOGIN, LOADING_LOGIN, POST_LOGIN } from "./login.types"
+import { ERROR_HANDLING, ERROR_LOGIN, LOADING_LOGIN, POST_LOGIN } from "./login.types"
 
 const initialState = {
     isAuth : false,
@@ -29,6 +29,11 @@ export const loginReducer = (state=initialState,{type,payload})=>{
                 ...state,
                 loading:false,
                 error:true
+            }
+        case ERROR_HANDLING:
+            return {
+                ...state,
+                error:false
             }
         default:
             return state;

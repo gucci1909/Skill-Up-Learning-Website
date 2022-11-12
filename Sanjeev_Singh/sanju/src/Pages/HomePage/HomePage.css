@@ -63,6 +63,9 @@
    .cart-btn{
     width: 120px;
    }
+   .product-card>div>img{
+    width: 100%;;
+}
 }
 
 

@@ -60,7 +60,7 @@ GitHub,Mongo DB,Render,Postman
 
 
 
-## Author
+## Authors
 
 👤 **Umang Arora**
 

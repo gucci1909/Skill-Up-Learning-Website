@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import {Box,Heading} from "@chakra-ui/react"
+import {Box,Button,Heading,Input} from "@chakra-ui/react"
 import {useDispatch, useSelector} from "react-redux";
-// import axios from 'axios';
 import { post_login } from '../Redux/loginRedux/login.actions';
 
 function Login() {
@@ -29,9 +28,9 @@ function Login() {
   return (
     <Box>
       <Heading>Login</Heading>
-      <input type="text" value={login_cred.username} name="username" onChange={(e)=>handleChange(e)}/>
-      <input type="text" value={login_cred.password} name="password" onChange={(e)=>handleChange(e)}/>
-      <button onClick={()=>handleClick(login_cred.username,login_cred.password)}>Login</button>
+      <Input type="text" placeholder="Admin Username" value={login_cred.username} name="username" onChange={(e)=>handleChange(e)}/>
+      <Input type="password" placeholder="Admin Password" value={login_cred.password} name="password" onChange={(e)=>handleChange(e)}/>
+      <Button onClick={()=>handleClick(login_cred.username,login_cred.password)}>Login</Button>
     </Box>
   )
 }

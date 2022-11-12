@@ -1,7 +1,7 @@
 import axios from "axios";
 import { DELETE_ERROR, DELETE_LOADING, DELETE_SUCCESS, GET_ERROR, GET_LOADING, GET_SUCCESS, PATCH_ERROR, PATCH_LOADING, PATCH_SUCCESS, POST_ERROR, POST_LOADING, POST_SUCCESS } from "./products.types"
 
-
+//Get Request
 export const getProduct = ()=>async(dispatch)=>{
     dispatch({type:GET_LOADING})
     try {
@@ -14,7 +14,7 @@ export const getProduct = ()=>async(dispatch)=>{
 
 }
 
-
+//Post Request
 export const postProduct = (value)=>async(dispatch)=>{
     dispatch({type:POST_LOADING})
     try {
@@ -30,6 +30,7 @@ export const postProduct = (value)=>async(dispatch)=>{
 
 }
 
+//Patch Request
 export const patchProduct = (id,value)=>async(dispatch)=>{
     dispatch({type:PATCH_LOADING})
     try {
@@ -46,6 +47,8 @@ export const patchProduct = (id,value)=>async(dispatch)=>{
 
 }
 
+
+//Delete Request
 export const deleteProduct = (id)=>async(dispatch)=>{
     dispatch({type:DELETE_LOADING})
     try {

@@ -7,10 +7,10 @@ import {
   getProduct,
   patchProduct,
   postProduct,
-} from "../Redux/productsRedux/products.actions";
+} from "../Redux/productsCrudRedux/products.actions";
 
 function ProductsCrud() {
-  const { loading, error, data } = useSelector((store) => store.product);
+  const { loading, error, data } = useSelector((store) => store.productCrud);
   const [products, setProducts] = useState({
     course_name: "",
     description: "",

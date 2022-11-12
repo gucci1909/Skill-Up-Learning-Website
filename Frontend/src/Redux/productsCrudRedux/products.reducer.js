@@ -6,7 +6,7 @@ const initialState = {
     data : [],
 }
 
-export const productReducer = (state=initialState,{type,payload})=>{
+export const productCrudReducer = (state=initialState,{type,payload})=>{
     switch(type){
         case GET_LOADING:
             return {

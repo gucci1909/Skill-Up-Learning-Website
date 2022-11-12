@@ -2,12 +2,14 @@ import { legacy_createStore, combineReducers,applyMiddleware,compose } from "red
 import thunk from "redux-thunk"
 import { authReducer } from "./authRedux/authReducer";
 import { loginReducer } from "./loginRedux/login.reducer";
-import { productReducer } from "./productsRedux/products.reducer";
+import { productCrudReducer } from "./productsCrudRedux/products.reducer";
+import { productGetReducer } from "./productsGetRedux/productsGet.reducer";
 
 const rootReducer = combineReducers({
     login : loginReducer,
-    product : productReducer,
-    auth:authReducer
+    productCrud : productCrudReducer,
+    auth:authReducer,
+    productGet : productGetReducer
 })
 
 const createComposer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

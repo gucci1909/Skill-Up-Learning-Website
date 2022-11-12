@@ -1,0 +1,81 @@
+.header-wallpaper {
+  width: 90%;
+  margin: auto;
+}
+.header-wallpaper > img {
+  width: 90vw;
+  height: 70vh;
+  border-radius: 12px;
+}
+.contactIcon {
+  position: fixed;
+  bottom: 10px;
+  right: 12px;
+}
+.contactSection {
+  width: 300px;
+  height: 200px;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  border-radius: 12px;
+  background-color: white;
+}
+.product-sidebar {
+  width: 18%;
+  height: 500px;
+  border: 1px solid grey;
+  margin-top: 10px;
+}
+.product-card > div > img {
+  height: 120px;
+}
+.product-page {
+  display: flex;
+}
+.product-card {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+.cart-btn {
+  height: 30px;
+  width: 180px;
+  color: white;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.product-container {
+  width: 80%;
+  margin: auto;
+}
+.product-container-div1 {
+  text-align: start;
+  display: flex;
+}
+@media all and (max-width: 880px) {
+  .cart-btn {
+    width: 120px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  .product-container-div1 {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-sidebar {
+    display: none;
+  }
+}

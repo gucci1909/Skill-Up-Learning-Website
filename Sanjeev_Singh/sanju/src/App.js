@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import {Route,Routes} from "react-router-dom"
+
 import HomePage from './Pages/HomePage/HomePage';
-import Slider from './Pages/HomePage/components/slider/Slider';
+import SingleProductPage from './Pages/HomePage/components/SingleProductPage';
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <Routes>
+        <Route path="/" element={<HomePage/>}></Route>
+      <Route path="/Products/:id" element={<SingleProductPage/>}></Route>
+      </Routes>
     </div>
   );
 }

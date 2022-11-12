@@ -15,8 +15,6 @@ const HomePage = () => {
     setLoading(false);
   }, []);
 
-
-
   if (loading) {
     <h1>...loading</h1>;
   }
@@ -24,12 +22,12 @@ const HomePage = () => {
   return (
     <section>
       <div className="header-wallpaper">
-        <Slider/>
+        <Slider />
       </div>
       <div>
         <div className="left-sidebar"></div>
         <div className="meddle-section">
-          <ProductPage/>
+          <ProductPage />
         </div>
       </div>
       <ContactIcon />

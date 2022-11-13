@@ -16,7 +16,7 @@
 
 ## Live Demo 
 
-[Netlify link available here]()
+[Netlify link available here](https://skill-up-habitual-oatmeal.netlify.app/)
 
 ## Screenshots
 

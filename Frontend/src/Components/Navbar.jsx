@@ -62,7 +62,7 @@ const Navbar = () => {
       p="0px 3%"
       justify="center"
       w="100%"
-      h="64px"
+      h="72px"
       borderBottom="1px solid #eeee"
     >
       <HStack w="full" maxW="1400px" p="0.6rem" spacing={8}>
@@ -71,7 +71,7 @@ const Navbar = () => {
             <Image
               p="3px"
               w="80px"
-              h="60px"
+              
               src="https://i.ibb.co/mXszdXf/skill-up-Logo.jpg"
             />
           </Link>
@@ -90,8 +90,7 @@ const Navbar = () => {
               Courses
               {/* </Link> */}
             </Text>
-
-            <Link to="/pricing">
+            <Link to="/">
               <Text color="black" fontSize={18} fontWeight="semibold">
                 why to join?
               </Text>
@@ -213,6 +212,17 @@ const Navbar = () => {
           <DrawerBody>
             <Accordion>
               <AccordionItem>
+
+                <AccordionButton>
+              <Box flex='1' textAlign='left'>
+                     <Link to="/" onClick={()=>onClose()} >
+                     <Text fontWeight="semibold" fontSize="md" >
+                       Buy Courses 
+                        </Text></Link>
+                     </Box>
+                
+                   </AccordionButton>
+
                 <AccordionButton>
                   <Box flex="1" textAlign="left">
                     <Text fontWeight="semibold" fontSize="md">

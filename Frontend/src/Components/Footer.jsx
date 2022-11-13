@@ -1,4 +1,4 @@
-import { Box, Container, Divider, HStack, Image, SimpleGrid, Spacer, Stack, Text, VStack } from '@chakra-ui/react'
+import { Divider, HStack, Image, SimpleGrid, Spacer, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 
 const Footer = () => {

@@ -215,7 +215,7 @@ const Navbar = () => {
 
                 <AccordionButton>
               <Box flex='1' textAlign='left'>
-                     <Link to="/" onClick={()=>onClose()} >
+                     <Link to="/products" onClick={()=>onClose()} >
                      <Text fontWeight="semibold" fontSize="md" >
                        Buy Courses 
                         </Text></Link>

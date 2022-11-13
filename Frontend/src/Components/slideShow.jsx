@@ -1,6 +1,6 @@
-import { Image, Stack } from "@chakra-ui/react";
+// import { Image, Stack } from "@chakra-ui/react";
 import React from "react";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 
 
 const Naazslide = ({images}) => {

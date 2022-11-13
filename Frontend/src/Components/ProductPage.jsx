@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const ProductPage = ({ data, addToCart }) => {
   return (
-    <section className="product-page">
+    <section className="product-page" style={{marginBottom:"70px"}}>
       {/* <div className="product-sidebar">
           <button onClick={handlePrice}>Price</button>
         </div> */}

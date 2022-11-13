@@ -4,7 +4,7 @@ import { Link, Navigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { Sigup_google, Singup } from "../Redux/authRedux/auth.action";
 import skill from "../Images/skill.jpeg"
-
+import {FcGoogle} from "react-icons/fc"
 const SignUpStyling = styled.div`
   text-align: center;
   background-color: #f2f6f8;
@@ -232,10 +232,7 @@ const SignupPage = () => {
               height: "40px",
             }}
           >
-            <img
-              src=""
-              alt="skill-up"
-            />
+            <FcGoogle/>
             <p>Continue with Google</p>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React, {  useState } from "react";
 import { Link, Navigate } from "react-router-dom";
+import {FcGoogle} from "react-icons/fc"
 import {
   Box,
   Button,
@@ -58,13 +59,14 @@ const Login = () => {
   }
   return (
     <>
-      <Box display="flex"  w="100%">
+      <Box display="flex"  w="100%" marginBottom="100px">
         <Box
           w="65%"
-          // border="1px solid red"
+          
           margin="auto"
+            
         >
-          <Box m="22px">
+          <Box m="22px" >
             <Link to="/">
               <Image
                 src={skill}
@@ -89,7 +91,7 @@ const Login = () => {
           </Box>
           <Link to="/login"></Link>
 
-          <Box w="43%" ml="23%" boxShadow="dark-lg" p="8" mt="6%">
+          <Box w="50%" ml="23%" boxShadow="dark-lg" p="8" mt="6%"  borderRadius="5px" margin="auto">
             <Heading as="h3" size="lg">
               Log in{" "}
             </Heading>
@@ -149,10 +151,7 @@ const Login = () => {
                   height: "40px",
                 }}
               >
-                <img
-                  src=""
-                  alt="skill-up"
-                />
+              <FcGoogle/>
                 <p>Continue with Google</p>
               </div>
             </FormControl>

@@ -40,7 +40,7 @@ export default function Slider() {
                     >
                         <img 
                         alt="im124"
-                        src={process.env.PUBLIC_URL + `/Img/${index + 1}.jpg`} 
+                        src={process.env.PUBLIC_URL + `/img/${index + 1}.jpg`} 
                         />
                     </div>
                 )

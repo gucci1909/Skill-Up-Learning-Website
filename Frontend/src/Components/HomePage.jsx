@@ -4,17 +4,49 @@ import Naazslide from './slideShow'
 import Loader from './SmallComponents/Loader'
 
 const images = [
-   "https://images.ctfassets.net/lh3zuq09vnm2/7siImqwRupwoBHyJCaO1zy/2d7ec1ccc7761f76c8fe18de52e889a4/T-Mobile.svg",
-    "https://images.ctfassets.net/lh3zuq09vnm2/7EHGsWMc29UoHErPsvRAsi/0f8210b12ada1e9faa313b4d56274572/Panasonic.svg",
-    "https://images.ctfassets.net/lh3zuq09vnm2/18dCY8kGkSbfdNB2Eod1Pp/4768154e8873caa4c1574499dc4e2aab/Microsoft_Logo.svg",
-    "https://images.ctfassets.net/lh3zuq09vnm2/3A5yNJ7WfWikTXKsk7r4hh/4060c710bc560b59a0dd06b6521fbe94/Decathlon.svg",
-   "https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg",
-   "https://s.udemycdn.com/partner-logos/v4/tcs-dark.svg",
-   "https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg",
+  "https://images.ctfassets.net/lh3zuq09vnm2/7EHGsWMc29UoHErPsvRAsi/0f8210b12ada1e9faa313b4d56274572/Panasonic.svg",
+  "https://images.ctfassets.net/lh3zuq09vnm2/18dCY8kGkSbfdNB2Eod1Pp/4768154e8873caa4c1574499dc4e2aab/Microsoft_Logo.svg",
+  "https://images.ctfassets.net/lh3zuq09vnm2/7siImqwRupwoBHyJCaO1zy/2d7ec1ccc7761f76c8fe18de52e889a4/T-Mobile.svg",
+  "https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg",
+  "https://images.ctfassets.net/lh3zuq09vnm2/3A5yNJ7WfWikTXKsk7r4hh/4060c710bc560b59a0dd06b6521fbe94/Decathlon.svg",
+  "https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg",
+  "https://s.udemycdn.com/partner-logos/v4/tcs-dark.svg",
   
     
-]
-const Naazlang = [
+  ]
+  const skillupt = [
+    {
+      image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3AIBM%2BDS0101EN-Skillup%2B2021%2Btype%40asset%2Bblock%40CO_Introduction-to-Data-Science.jpg&w=1920&q=75",
+      name :"The Complete 2022 Web Development Bootcamp",
+       des:  "Beginner | Intermediate | Expert"  
+    },
+    {
+      image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3ASkillUp%2BHS-CSM-101%2B2021_Q1%2Btype%40asset%2Bblock%40asset-v1_SkillUp_HS-CSM-101_2021_Q1_type_asset_block_Coaching_Skills_for_Managers.png&w=1920&q=75",
+      name :"Data Visualization with Python",
+      des:  "Beginner | Intermediate | Expert" 
+    },
+    {
+      image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3ASkillUp%2BHS-PSBS-101%2B2021_Q2%2Btype%40asset%2Bblock%40Problem_Solving_for_Business_Success.jpg&w=1920&q=75",
+      name :"The Data Science Method",
+      des:  "Beginner | Intermediate | Expert" 
+    },
+    {
+      image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3ASkillUp%2BHS-EIPW-101%2B2022_Q1%2Btype%40asset%2Bblock%40asset-v1_SkillUp_HS-EIPW-101_2022_Q1_type_asset_block_asset-v1_SkillUp_HS-EIPW-101_2022_Q1_type_asset_block_EQ-and-IQ-in-the-Workplace.jpg&w=1920&q=75",
+      name :"The Data Science Method",
+      des:  "Beginner | Intermediate | Expert" 
+    },
+    {
+      image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3ASkillUp%2BHS-DISW-101%2B2021_Q2%2Btype%40asset%2Bblock%40asset-v1_SkillUp_HS-DISW-101_2021_Q2_type_asset_block_asset-v1_SkillUp_HS-DISW-101_2021_Q2_type_asset_block_asset-v1_SkillUp_HS-DISW-101_2021_Q2_type_asset_block_Diversity__1_.png&w=1920&q=75",
+      name :"The Data Science Method",
+      des:  "Beginner | Intermediate | Expert" 
+    },
+    {
+      image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3AIBM%2BDS0301EN%2Bv1%2Btype%40asset%2Bblock%40Data_Privacy_Fundamentals.jpg&w=1920&q=75",
+      name :"Data Privacy Fundamentals",
+      des:  "Beginner | Intermediate | Expert" 
+    }
+  ]
+  const Naazlang = [
   {
     image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3AIBM%2BDS0101EN-Skillup%2B2021%2Btype%40asset%2Bblock%40CO_Introduction-to-Data-Science.jpg&w=1920&q=75",
     name :"Learn Python: The Complete Python Programming Course",
@@ -34,38 +66,6 @@ const Naazlang = [
     image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3AIBM%2BDS0301EN%2Bv1%2Btype%40asset%2Bblock%40Data_Privacy_Fundamentals.jpg&w=1920&q=75",
     name :"Data Privacy Fundamentals",
      des:  "Self-Paced | Mentored | BEGINNER"  
-  }
-]
-const skillupt = [
-  {
-    image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3AIBM%2BDS0101EN-Skillup%2B2021%2Btype%40asset%2Bblock%40CO_Introduction-to-Data-Science.jpg&w=1920&q=75",
-    name :"The Complete 2022 Web Development Bootcamp",
-     des:  "Beginner | Intermediate | Expert"  
-  },
-  {
-    image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3ASkillUp%2BHS-CSM-101%2B2021_Q1%2Btype%40asset%2Bblock%40asset-v1_SkillUp_HS-CSM-101_2021_Q1_type_asset_block_Coaching_Skills_for_Managers.png&w=1920&q=75",
-    name :"Data Visualization with Python",
-    des:  "Beginner | Intermediate | Expert" 
-  },
-  {
-    image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3ASkillUp%2BHS-PSBS-101%2B2021_Q2%2Btype%40asset%2Bblock%40Problem_Solving_for_Business_Success.jpg&w=1920&q=75",
-    name :"The Data Science Method",
-    des:  "Beginner | Intermediate | Expert" 
-  },
-  {
-    image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3ASkillUp%2BHS-EIPW-101%2B2022_Q1%2Btype%40asset%2Bblock%40asset-v1_SkillUp_HS-EIPW-101_2022_Q1_type_asset_block_asset-v1_SkillUp_HS-EIPW-101_2022_Q1_type_asset_block_EQ-and-IQ-in-the-Workplace.jpg&w=1920&q=75",
-    name :"The Data Science Method",
-    des:  "Beginner | Intermediate | Expert" 
-  },
-  {
-    image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3ASkillUp%2BHS-DISW-101%2B2021_Q2%2Btype%40asset%2Bblock%40asset-v1_SkillUp_HS-DISW-101_2021_Q2_type_asset_block_asset-v1_SkillUp_HS-DISW-101_2021_Q2_type_asset_block_asset-v1_SkillUp_HS-DISW-101_2021_Q2_type_asset_block_Diversity__1_.png&w=1920&q=75",
-    name :"The Data Science Method",
-    des:  "Beginner | Intermediate | Expert" 
-  },
-  {
-    image:"https://in.skillup.online/_next/image/?url=https%3A%2F%2Fcourses-in.skillup.online%2Fasset-v1%3AIBM%2BDS0301EN%2Bv1%2Btype%40asset%2Bblock%40Data_Privacy_Fundamentals.jpg&w=1920&q=75",
-    name :"Data Privacy Fundamentals",
-    des:  "Beginner | Intermediate | Expert" 
   }
 ]
 

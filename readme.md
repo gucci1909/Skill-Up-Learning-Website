@@ -20,7 +20,7 @@
 
 ## Screenshots
 
-![App Screenshot](./image/Screenshot.png)
+![App Screenshot](http://res.cloudinary.com/dtdqzefvj/image/upload/v1670845865/rjkly41j8xe2seq3g5f3.png)
 
 ## Run Locally
 
